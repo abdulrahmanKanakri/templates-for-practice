@@ -14,4 +14,4 @@ This landing page is a copy of template named "Intact Corporate" that I tried to
 
 # Demo
 
-You can see the page from [this link](https://abdulrahmankanakri.github.io/templates-for-practice/Intact+Corporate)
+You can see the page from [this link](https://abdulrahmankanakri.github.io/templates-for-practice/Intact%20Corporate)
