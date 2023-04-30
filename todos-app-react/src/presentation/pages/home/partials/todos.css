@@ -1,0 +1,64 @@
+.todo-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.todo-item {
+  background-color: lightcyan;
+  border-radius: 2px;
+  border: 1px solid darkcyan;
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.todo-item__id {
+  margin-right: 8px;
+}
+
+.todo-item__title {
+  font-size: 1rem;
+}
+
+.todo-item__delete {
+  color: red;
+  font-size: 22px;
+  margin-left: auto;
+}
+
+.todos-form {
+  background-color: #333;
+  margin: 32px 0;
+  padding: 16px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.todos-form__title {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.todos-form__content {
+  display: flex;
+}
+
+.todos-form__input {
+  width: 100%;
+  display: block;
+  height: 32px;
+  padding: 0 16px;
+  border: 1px solid #cecece;
+}
+
+.todos-form__submit {
+  color: #fff;
+  background-color: lightsteelblue;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 8px 16px;
+}
